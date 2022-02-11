@@ -17,6 +17,7 @@ header {
 main {
     margin-left: 320px;
     margin-right: 320px;
+    margin-top: 30px;
 }
 
 .blue {
@@ -59,7 +60,32 @@ main {
 
     text-align: center;
     vertical-align: middle;
+
+    text-decoration: none;
 }
+
+.blue-button-container-2 {
+    margin-left: 0px;
+
+    width: 60px;
+    height: 21px;
+    background: #0094FF;
+    border-radius: 20px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    text-decoration: none;
+}
+
+.blue-button-container:hover {
+    background: #224466;
+}
+
+.blue-button-container-2:hover {
+    background: #224466;
+}
+
 .blue-button-text {
     margin-top: auto;
     margin-bottom: auto;
@@ -85,4 +111,46 @@ main {
 }
 
 .miniblog-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.miniblog {
+    margin: 0;
+    margin-right: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.tgch-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tgch {
+    margin: 0;
+    margin-right: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.lastpost {
+    font-size: 12px;
+    color: #303030;
+}
+.lasttgpost {
+    font-size: 12px;
+    color: #303030;
+}
+
+@media (max-device-width:1050px){
+    header {
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 18px;
+    }
+    
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
 }
