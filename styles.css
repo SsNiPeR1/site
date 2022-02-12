@@ -103,6 +103,11 @@ main {
     border-radius: 7px;
 }
 
+.gray-button:hover {
+    border-radius: 10px;
+    background: #4C4C4C;
+}
+
 .text-gray-button {
     font-weight: bold;
     font-size: 14px;
